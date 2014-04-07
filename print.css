@@ -1,0 +1,221 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Adapté à PluXml par Fab'Lab
+http://www.le-fab-lab.com
+Même licence d'utilisation.
+*/
+
+/*Déclarations Générales */
+body
+{
+margin: 0;
+padding: 0;
+background: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+color: #000000;
+}
+h1, h2, h3
+{
+margin: 0;
+padding: 0;
+font-family: 'Arvo', serif;
+font-weight: normal;
+color: #000000;
+}
+h1
+{
+font-size:14pt;
+}
+h2
+{
+font-size:12pt;
+}
+h3
+{
+font-size:11pt;
+}
+p, ul, ol
+{
+margin-top:0;
+line-height:110%;
+}
+ul, ol { }
+a
+{
+border:none;
+background:none;
+text-decoration:none;
+color:#000000;
+}
+img, form, iframe
+{
+display:none;
+}
+
+/* balises html5 */
+nav { }
+header { }
+section { }
+footer { }
+article { }
+
+/* conteneur global */
+#wrapper
+{
+margin: 0 auto;
+padding: 0;
+}
+
+/* Menu de navigation : inutile pour l'impression */
+#menu-wrapper
+{
+display:none;
+}
+
+/* Header + Logo */
+#header-wrapper
+{
+height:100pt;
+background-color:#FFFFFF;
+}
+#header
+{
+width:100%;
+height:80pt;
+margin:0 auto;
+}
+#logo
+{
+width:100%;
+height:80pt;
+margin:0 auto;
+padding:20pt 0 0 0;
+}
+#logo h1, #logo p
+{
+display:block;
+margin:0;
+padding:0;
+text-align:center;
+text-transform:uppercase;
+}
+#logo h1
+{
+letter-spacing:-1pt;
+font-size:30pt;
+font-weight:bold;
+}
+#logo p
+{
+font-family:'Arvo', serif;
+font-size:15pt;
+}
+
+/* Page */
+#page
+{
+width:100%;
+margin:0 auto;
+padding:0;
+background-color:#FFFFFF;
+}
+#page-bgtop { }
+#page-bgbtm { }
+/* Content */
+#content
+{
+width:100%;
+padding:0;
+}
+.chapo
+{
+margin:0 0 0.5em 0;
+font-style:italic;
+font-weight:bolder;
+font-size:11pt;
+}
+.post
+{
+clear:both;
+padding-bottom:10pt;
+text-align:justify;
+}
+.post .title
+{
+padding-top:10pt;
+letter-spacing:0.5pt;
+}
+.post .meta
+{
+padding-bottom:5pt;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:9pt;
+font-style:italic;
+}
+.post .entry
+{
+text-align:justify;
+margin-bottom:5pt;
+padding:5pt 0 0 0;
+}
+.classement
+{
+display:none;
+}
+.more
+{
+display:none;
+}
+.share-buttons
+{
+display:none;
+}
+#form
+{
+display:none;
+}
+.vignette
+{
+display:none;
+}
+
+/* Sidebar */
+#sidebar
+{
+display:none;
+}
+
+/* Footer */
+#footer
+{
+width:100%;
+margin:0 auto 5pt auto;
+border-top:2pt solid #7F7F7F;
+font-family:Arial, Helvetica, sans-serif;
+}
+#footer p
+{
+margin:0;
+padding-top:5pt;
+line-height:normal;
+text-align:center;
+}
+#menu-footer
+{
+display:none;
+}
+
+/* divers */
+.rss
+{
+display:none;
+}
+#pagination
+{
+display:none;
+}
