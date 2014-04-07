@@ -45,10 +45,10 @@
 					<?php $plxShow->lang('COMMENTS'); ?></a>
 				</div>
 			</li>
-			<li>
+			<!--Utile pour démo mais nécessite plugin MySkinSelect <li>
 				<h2>Changer de thème.</h2>
 				<?php eval($plxShow->callHook('MySkinSelect')) ?>
-			</li>
+			</li>-->
 		</ul>
 	</aside>
 </div>
